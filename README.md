@@ -16,12 +16,11 @@
 2.微雪3.7 寸黑白墨水屏 支持局刷 <br/>
 3.DS3231时钟模块 <br/>
   ESP32 ==>DS3231<br/>
-  GND GND<br/>  
+  GND GND<br/>
   5V 5V<br/>
   21 SDA<br/>
-  22 SCL<br/><br/>
+  22 SCL<br/>
 4.锂电池1500mah <br/>
-
 
 <b>三.软件代码:</b><br/>
 A.arduino 版本 1.8.13<br/>
