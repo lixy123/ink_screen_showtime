@@ -34,7 +34,7 @@ C.烧录:<br/>
 开发板选择 ESP32 Dev Module<br/>
 分区模式选择 Default 4MB With spiffs(1.2MB APP/1.5MB spiffs)<br/>
 找到端口，点击烧录<br/>
-使用arduino的 esp32 sketch data upload 插件将data目录上传至spiffs区<br/>
+使用arduino的ESP32 Sketch Data Upload插件将data目录上传至spiffs区<br/>
 D.其它：<br/>
 制作字库参考： http://oleddisplay.squix.ch/<br/>
 
