@@ -5,6 +5,7 @@
 1.此屏局刷效果好，刷屏无闪烁<br/>
 2.利用了休眠节能，休眠待机功耗约3ma左右，其中DS3231时钟模块用电2ma，不太容易进一步节能<br/>
 3.需要显示的汉字点阵较大，汉字字库点阵程序做不了那么大的字库，显示汉字处用图片代替<br/>
+4.初步估算，1500ma充满电后能使用0.5-1月，待测试<br/>
 
 最终效果：<br/>
   <img src= 'https://github.com/lixy123/ink_screen_showtime/blob/main/time1.jpg?raw=true' /> <br/>
