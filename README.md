@@ -2,6 +2,8 @@
 
 <b>一.功能：</b><br/>
 墨水屏显示时间，每分钟刷新一次<br/>
+1.利用了休眠节能，休眠待机功耗约3ma左右，其中DS3231时钟模块用电2ma，不太容易进一步节能<br/>
+2.需要显示的汉字点阵较大，汉字字库点阵程序做不了那么大的字库，显示汉字处用图片代替<br/>
 
 最终效果：<br/>
   <img src= 'https://github.com/lixy123/ink_screen_showtime/blob/main/time1.jpg?raw=true' /> <br/>
@@ -10,9 +12,14 @@
   <img src= 'https://github.com/lixy123/ink_screen_showtime/blob/main/time4.jpg?raw=true' /> <br/>
   
 <b>二.硬件：</b><br/>
-1.lilygo ESP32 墨水屏驱动板 T5_V2.4 <br/>
+1.lilygo ESP32 墨水屏驱动板 T5_V2.4 https://github.com/Xinyuan-LilyGO/T5-Ink-Screen-Series <br/>
 2.微雪3.7 寸黑白墨水屏 支持局刷 <br/>
-3.DS3231时钟模块(ESP32默认I2C引脚连接 IO21,IO22) <br/>
+3.DS3231时钟模块 <br/>
+  ESP32 ==>DS3231<br/>
+  GND GND<br/>  
+  5V 5V<br/>
+  21 SDA<br/>
+  22 SCL<br/><br/>
 4.锂电池1500mah <br/>
 
 
