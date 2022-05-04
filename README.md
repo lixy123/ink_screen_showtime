@@ -8,10 +8,10 @@
 4.初步估算，1500ma充满电后能使用0.5-1月，待测试<br/>
 
 最终效果：<br/>
-  <img src= 'https://github.com/lixy123/ink_screen_showtime/blob/main/time1.jpg?raw=true' /> <br/>
-  <img src= 'https://github.com/lixy123/ink_screen_showtime/blob/main/time2.jpg?raw=true' /> <br/>
-  <img src= 'https://github.com/lixy123/ink_screen_showtime/blob/main/time3.jpg?raw=true' /> <br/>
-  <img src= 'https://github.com/lixy123/ink_screen_showtime/blob/main/time4.jpg?raw=true' /> <br/>
+  <img src= 'https://github.com//ink_screen_showtime/blob/main/time1.jpg?raw=true' /> <br/>
+  <img src= 'https://github.com//ink_screen_showtime/blob/main/time2.jpg?raw=true' /> <br/>
+  <img src= 'https://github.com//ink_screen_showtime/blob/main/time3.jpg?raw=true' /> <br/>
+  <img src= 'https://github.com//ink_screen_showtime/blob/main/time4.jpg?raw=true' /> <br/>
   
 <b>二.硬件：</b><br/>
 1.lilygo ESP32 墨水屏驱动板 T5_V2.4 https://github.com/Xinyuan-LilyGO/T5-Ink-Screen-Series <br/>
@@ -22,7 +22,7 @@
   5V 5V<br/>
   21 SDA<br/>
   22 SCL<br/>
-4.锂电池1500mah (注：参考原理图，直接到墨水屏驱动板的5V/GND 23/2引脚， 1/24两引脚夹断，容易电池短路 )<br/>
+4.锂电池1500mah (注：参考原理图，直接到墨水屏驱动板的5V/GND 23/2引脚， 1/24两引脚夹断以避免电池短路 )<br/>
 
 <b>三.软件代码:</b><br/>
 A.arduino 版本 1.8.13<br/>
