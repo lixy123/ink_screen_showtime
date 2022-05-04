@@ -14,13 +14,13 @@
 <b>二.硬件：</b><br/>
 1.lilygo ESP32 墨水屏驱动板 T5_V2.4 https://github.com/Xinyuan-LilyGO/T5-Ink-Screen-Series <br/>
 2.微雪3.7 寸黑白墨水屏 支持局刷 <br/>
-3.DS3231时钟模块 <br/>
+3.DS3231时钟模块 (注：孔距不匹配，用钳子将4引脚夹一下，直接焊接) <br/>
   ESP32 ==>DS3231<br/>
   GND GND<br/>
   5V 5V<br/>
   21 SDA<br/>
   22 SCL<br/>
-4.锂电池1500mah <br/>
+4.锂电池1500mah (注：参考原理图，直接到墨水屏驱动板的5V/GND 23/2引脚， 1/24两引脚夹断，容易电池短路 )<br/>
 
 <b>三.软件代码:</b><br/>
 A.arduino 版本 1.8.13<br/>
